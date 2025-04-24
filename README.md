@@ -28,7 +28,7 @@ This project implements a standalone computer vision system that detects whether
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/worker-monitor
+   [git clone https://github.com/yourusername/worker-monitor](https://github.com/Pallav277/worker-monitor.git)
    cd worker-monitor
    ```
 
