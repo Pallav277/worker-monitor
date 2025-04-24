@@ -1,0 +1,13 @@
+numpy
+opencv-python
+torch
+torchvision
+Pillow
+PyYAML
+tqdm
+pandas
+requests
+ultralytics
+onnx
+onnxslim
+onnxruntime

@@ -1,0 +1,18 @@
+# worker-monitor.service
+
+[Unit]
+Description=Worker Activity Monitoring System
+After=network.target
+
+[Service]
+Type=simple
+User=pallav-rathod
+WorkingDirectory=/home/pallav-rathod/Desktop/worker-monitor     # Path to your working directory (worker-monitor)
+ExecStart=/usr/bin/python3 /home/pallav-rathod/Desktop/worker-monitor/worker_monitor.py     # Path to your Python script (worker_monitor.py)
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
